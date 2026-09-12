@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Keindahan Pulau Jeju</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #eef2f5; }
+        .navbar { background-color: #1a5f7a; color: white; display: flex; justify-content: space-between; align-items: center; padding: 15px 40px; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 15px; font-size: 0.85rem; font-weight: bold; padding: 6px 12px; border-radius: 4px; }
+        .nav-links a.active, .nav-links a:hover { background-color: #ffd166; color: #1a5f7a; }
+        .page { max-width: 1100px; margin: 30px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .page-title { text-align: center; font-size: 1.8rem; color: #1a5f7a; margin-bottom: 25px; }
+        .grid-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-bottom: 20px; }
+        .grid-4col { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+        .img-box { width: 100%; height: 180px; object-fit: cover; border-radius: 6px; }
+        .attraction-item { background: #f8f9fa; padding: 12px; border-radius: 6px; }
+        .attraction-item h4 { color: #1a5f7a; margin-bottom: 5px; font-size: 0.95rem; }
+        .banner-blue { background-color: #1a5f7a; color: white; padding: 12px; border-radius: 6px; margin-top: 20px; text-align: center; }
+        footer { background-color: #1a5f7a; color: white; text-align: center; padding: 15px; font-size: 0.85rem; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>JEJU ISLAND ARTICLE</h2>
+        <div class="nav-links">
+            <a href="index.html">BERANDA</a>
+            <a href="mengenal.html">MENGENAL JEJU</a>
+            <a href="keindahan.html" class="active">KEINDAHAN</a>
+            <a href="musim.html">MUSIM & SPOT</a>
+            <a href="aktivitas.html">AKTIVITAS</a>
+        </div>
+    </nav>
+
+    <div class="page">
+        <h2 class="page-title">2. KEINDAHAN & KEAJAIBAN ALAM</h2>
+        <div class="grid-3col">
+            <img src="hutan vulkanik.jpg" class="img-box" alt="Hutan Vulkanik">
+            <img src="seongsan.jpg" class="img-box" alt="Tebing Seongsan">
+            <img src="kebun bunga.jpg" class="img-box" alt="Kebun Bunga Canola">
+        </div>
+        
+        <h3 style="margin-bottom: 12px; color: #1a5f7a;">DAYA TARIK UTAMA</h3>
+        <div class="grid-4col">
+            <div class="attraction-item">
+                <h4>🌋 ALAM VULKANIK</h4>
+                <p style="font-size: 0.8rem;">Formasi lava unik, goa, dan Gunung Hallasan.</p>
+            </div>
+            <div class="attraction-item">
+                <h4>🌸 BUNGA & KEBUN</h4>
+                <p style="font-size: 0.8rem;">Canola di musim semi, jeruk Hallabong yang segar.</p>
+            </div>
+            <div class="attraction-item">
+                <h4>🌊 PANTAI</h4>
+                <p style="font-size: 0.8rem;">Perairan biru jernih dengan pasir putih lembut.</p>
+            </div>
+            <div class="attraction-item">
+                <h4>👩‍🦱 BUDAYA HAENYEO</h4>
+                <p style="font-size: 0.8rem;">Penyelam wanita legendaris tanpa tabung oksigen.</p>
+            </div>
+        </div>
+
+        <div class="banner-blue">
+            <p><strong>Jeju Volcanic Island & Lava Tubes</strong> – Kawasan Warisan Dunia UNESCO dengan alam yang dijaga ketat.</p>
+        </div>
+    </div>
+
+    <footer><p>© 2026 Tugas HTML RPL - Klaten</p></footer>
+</body>
+</html>

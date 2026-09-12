@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Aktivitas & Panduan</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #eef2f5; }
+        .navbar { background-color: #1a5f7a; color: white; display: flex; justify-content: space-between; align-items: center; padding: 15px 40px; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 15px; font-size: 0.85rem; font-weight: bold; padding: 6px 12px; border-radius: 4px; }
+        .nav-links a.active, .nav-links a:hover { background-color: #ffd166; color: #1a5f7a; }
+        .page { max-width: 1100px; margin: 30px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .page-title { text-align: center; font-size: 1.8rem; color: #1a5f7a; margin-bottom: 25px; }
+        .activity-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+        .activity-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 20px; }
+        .img-box { width: 100%; height: 220px; object-fit: cover; border-radius: 6px; }
+        .info-card { background: #f8f9fa; padding: 15px; border-radius: 6px; border-left: 4px solid #1a5f7a; height: 100%; }
+        .info-card h3 { color: #1a5f7a; margin-bottom: 8px; font-size: 1rem; }
+        .spot-card { border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: white; }
+        .spot-card img { width: 100%; height: 110px; object-fit: cover; }
+        .spot-card-body { padding: 10px; }
+        .spot-card-body h4 { font-size: 0.85rem; color: #1a5f7a; margin-bottom: 4px; }
+        .spot-card-body h4 { font-size: 0.85rem; color: #1a5f7a; margin-bottom: 4px; }
+        footer { background-color: #1a5f7a; color: white; text-align: center; padding: 15px; font-size: 0.85rem; margin-top: 30px; }
+        
+        .spot-card img { height: 180px !important; object-position: center; }
+        footer { background-color: #1a5f7a; color: white; text-align: center; padding: 15px; font-size: 0.85rem; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>JEJU ISLAND ARTICLE</h2>
+        <div class="nav-links">
+            <a href="index.html">BERANDA</a>
+            <a href="mengenal.html">MENGENAL JEJU</a>
+            <a href="keindahan.html">KEINDAHAN</a>
+            <a href="musim.html">MUSIM & SPOT</a>
+            <a href="aktivitas.html" class="active">AKTIVITAS</a>
+        </div>
+    </nav>
+
+    <div class="page">
+        <h2 class="page-title">4. AKTIVITAS SERU & PANDUAN PRAKTIS</h2>
+        <div class="activity-grid">
+            <img src="aktivitas utama.jpg" class="img-box" alt="Trekking Jeju Olle Trail">
+            <div>
+                <div class="info-card">
+                    <h3>CARA MENUJU KE JEJU</h3>
+                    <p style="margin-bottom: 8px; font-size: 0.85rem;">✈️ <strong>Penerbangan:</strong> Domestik dari Seoul & internasional.</p>
+                    <p style="margin-bottom: 12px; font-size: 0.85rem;">🚢 <strong>Feri:</strong> Dari Busan & pelabuhan lain di Korea.</p>
+                    <img src="foto-kuda.jpg" style="width: 100%; height: 90px; object-fit: cover; border-radius: 6px;" alt="Berkuda di Jeju">
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 20px; color: #1a5f7a;">AKTIVITAS SERU</h3>
+        <div class="activity-list">
+            <div class="spot-card">
+                <img src="pinggir pantai.jpg" alt="Jeju Olle Trail">
+                <div class="spot-card-body">
+                    <h4>Jeju Olle Trail</h4>
+                    <p style="font-size: 0.7rem;">Jalur pejalan kaki di sepanjang pantai.</p>
+                </div>
+            </div>
+            <div class="spot-card">
+                <img src="haenyeo.jpg" alt="Budaya Haenyeo">
+                <div class="spot-card-body">
+                    <h4>Budaya Haenyeo</h4>
+                    <p style="font-size: 0.7rem;">Penyelam wanita legendaris di laut.</p>
+                </div>
+            </div>
+            <div class="spot-card">
+                <img src="jeruk jeju.jpg" alt="Kuliner Khas Jeju">
+                <div class="spot-card-body">
+                    <h4>Kuliner Khas Jeju</h4>
+                    <p style="font-size: 0.7rem;">Cicipi babi hitam & jeruk Hallabong.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer><p>© 2026 Tugas HTML RPL - Klaten</p></footer>
+</body>
+</html>

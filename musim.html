@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Musim & Spot Foto</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #eef2f5; }
+        .navbar { background-color: #1a5f7a; color: white; display: flex; justify-content: space-between; align-items: center; padding: 15px 40px; }
+        .nav-links a { color: white; text-decoration: none; margin-left: 15px; font-size: 0.85rem; font-weight: bold; padding: 6px 12px; border-radius: 4px; }
+        .nav-links a.active, .nav-links a:hover { background-color: #ffd166; color: #1a5f7a; }
+        .page { max-width: 1100px; margin: 30px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .page-title { text-align: center; font-size: 1.8rem; color: #1a5f7a; margin-bottom: 25px; }
+        .grid-4col { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
+        .season-card { 
+        border: 1px solid #ddd; 
+        border-radius: 6px; 
+        overflow: hidden; 
+        background: white; 
+}
+        .season-card img { 
+        width: 100%; 
+        height: 120px; 
+        object-fit: cover; 
+}
+        .season-card-body { 
+        padding: 10px; 
+}
+        .season-card-body h4 { 
+        font-size: 0.85rem; 
+        color: #1a5f7a; 
+        margin-bottom: 4px; 
+}
+        .spot-card { border: 1px solid #ddd; border-radius: 6px; overflow: hidden; background: white; }
+        .spot-card img { width: 100%; height: 120px; object-fit: cover; }
+        .spot-card-body { padding: 10px; }
+        .spot-card-body h4 { font-size: 0.85rem; color: #1a5f7a; margin-bottom: 4px; }
+        footer { background-color: #1a5f7a; color: white; text-align: center; padding: 15px; font-size: 0.85rem; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>JEJU ISLAND ARTICLE</h2>
+        <div class="nav-links">
+            <a href="index.html">BERANDA</a>
+            <a href="mengenal.html">MENGENAL JEJU</a>
+            <a href="keindahan.html">KEINDAHAN</a>
+            <a href="musim.html" class="active">MUSIM & SPOT</a>
+            <a href="aktivitas.html">AKTIVITAS</a>
+        </div>
+    </nav>
+
+<!-- BAGIAN KARTU MUSIM DENGAN GAMBAR -->
+        <div class="grid-4col" style="margin-bottom: 25px;">
+            <div class="season-card">
+                <img src="musim semi.jpg" alt="Musim Semi Jeju">
+                <div class="season-card-body">
+                    <h4>🌸 MUSIM SEMI (봄)</h4>
+                    <p style="font-size: 0.75rem;">Cuaca sejuk, penuh bunga canola dan sakura.</p>
+                </div>
+            </div>
+            <div class="season-card">
+                <img src="musim panas.jpg" alt="Musim Panas Jeju">
+                <div class="season-card-body">
+                    <h4>🌿 MUSIM PANAS (여름)</h4>
+                    <p style="font-size: 0.75rem;">Sinar matahari, sempurna untuk aktivitas air.</p>
+                </div>
+            </div>
+            <div class="season-card">
+                <img src="musim gugur.jpg" alt="Musim Gugur Jeju">
+                <div class="season-card-body">
+                    <h4>🍁 MUSIM GUGUR (가을)</h4>
+                    <p style="font-size: 0.75rem;">Dedaunan warna-warni memukau di pegunungan.</p>
+                </div>
+            </div>
+            <div class="season-card">
+                <img src="musim salju.jpg" alt="Musim Dingin Jeju">
+                <div class="season-card-body">
+                    <h4>❄️ MUSIM DINGIN (겨울)</h4>
+                    <p style="font-size: 0.75rem;">Pemandangan salju dan keheningan alam vulkanik.</p>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin-bottom: 12px; color: #1a5f7a;">SPOT UTAMA DI PULAU</h3>
+        <div class="grid-4col">
+            <div class="spot-card">
+                <img src="Seongsan Ilchulbong.jpg" alt="Seongsan Ilchulbong">
+                <div class="spot-card-body">
+                    <h4>SEONGSAN ILCHULBONG (성산일출봉)</h4>
+                    <p style="font-size: 0.7rem;">Sunrise Peak, kaldera vulkanik di pantai timur.</p>
+                </div>
+            </div>
+            <div class="spot-card">
+                <img src="hallasan jeju.jpg" alt="Gunung Hallasan">
+                <div class="spot-card-body">
+                    <h4>GUNUNG HALLASAN (한라산)</h4>
+                    <p style="font-size: 0.7rem;">Puncak tertinggi di Korea Selatan, jalur pendakian indah.</p>
+                </div>
+            </div>
+            <div class="spot-card">
+                <img src="kebun jeruk.jpg" alt="Kebun Jeruk Hallabong">
+                <div class="spot-card-body">
+                    <h4>KEBUN JERUK HALLABONG (한라봉)</h4>
+                    <p style="font-size: 0.7rem;">Petik jeruk segar langsung dari pohonnya.</p>
+                </div>
+            </div>
+            <div class="spot-card">
+                <img src="pantai.jpg" alt="Pantai Hyeopjae">
+                <div class="spot-card-body">
+                    <h4>PANTAI HYEOPJAE (협재해수욕장) / HAMDEOK (함덕해수욕장)</h4>
+                    <p style="font-size: 0.7rem;">Pantai pasir putih dengan air berwarna turkis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer><p>© 2026 Tugas HTML RPL - Klaten</p></footer>
+</body>
+</html>
